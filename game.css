@@ -1,0 +1,83 @@
+body
+{
+width: 100%;
+height: 100vh;
+background-image: url(ezz.png);
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+.login_div1 , .login_div2
+{
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    background-color: #ffcd91;
+    border: 4px solid whitesmoke;
+    
+}
+#player1_name , #player2_name
+{
+display: inline-block;
+margin-left: 20px;
+}
+#word
+{
+width: 60%;
+}
+#word_display
+{
+letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#something{
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(255,0,68);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    
+}
+#edit{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bolder;
+    color: rgb(255, 233, 32);
+
+}
+.login_div2{
+    background-color: #fff59e;
+}
+#Number1{
+    color: rgb(0, 251, 21);
+}
+#Number2{
+    color: rgb(17, 255, 0);
+}
+@font-face {
+    font-family: 'KGPrimaryItalics';
+    src: url(KGPrimaryItalics.ttf);
+    }
+.container{
+    font-family: 'KGPrimaryItalics',sans-serif;
+    font-size: 25px;
+}
+.score{
+    float: left;
+    color: rgb(0, 0, 0);
+    border: solid 3px grey;
+    background-color: aliceblue;
+}
